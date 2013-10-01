@@ -1,4 +1,3 @@
-//http://jklfds-ging.rhcloud.com/     ssh-dss 7771662@ging   Key name:ging
 var app = require('http').createServer(handler) 
  , io = require('socket.io').listen(app)
  , fs = require('fs');
